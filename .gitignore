@@ -1,0 +1,14 @@
+# Fitxers temporals de LaTeX
+out/*.aux
+out/*.log
+out/*.toc
+out/*.out
+out/*.synctex.gz
+out/*.fls
+out/*.fdb_latexmk
+
+# Sí volem el PDF final
+!out/*.pdf
+
+# VS Code (configuració local)
+.vscode/settings.json

@@ -1,0 +1,40 @@
+% ============================================================
+%  PREÀMBUL — Configuració d'estils, paquets i colors
+% ============================================================
+
+% --- Codificació i idioma ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[catalan]{babel}
+
+% --- Marges ---
+\usepackage[a4paper, margin=2.5cm]{geometry}
+
+% --- Colors ---
+\usepackage{xcolor}
+\definecolor{colorprincipal}{RGB}{0, 70, 127}   % Blau fosc per defecte
+
+% --- Tipografia ---
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% --- Matemàtiques ---
+\usepackage{amsmath, amssymb}
+
+% --- Imatges ---
+\usepackage{graphicx}
+\graphicspath{{../assets/}}
+
+% --- Taules ---
+\usepackage{booktabs}
+\usepackage{array}
+
+% --- Hiperenllaços ---
+\usepackage[colorlinks=true, linkcolor=colorprincipal, urlcolor=colorprincipal]{hyperref}
+
+% --- Capçaleres i peus de pàgina ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textcolor{colorprincipal}{\leftmark}}
+\cfoot{\thepage}
